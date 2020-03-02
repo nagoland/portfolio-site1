@@ -1,0 +1,490 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-weight:normal;
+}
+li ,ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.apple-button{
+    background-image: url(img/apple_button.png);
+    width: 199px;
+    height: 59px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* .apple-button{
+    display: inline-block;
+    background-color: #000;
+    color:#fff;
+    border-radius: 5px;
+
+}
+.apple-inner{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px 0;
+
+}
+.apple-inner span{
+    font-size:45px;
+    display: block;
+    margin-right:10px;
+}
+.apple-text{
+    align-items:center;
+    letter-spacing: 1px;
+}
+.apple-download{
+    font-size:14px;
+}
+.apple-store{
+    font-size:20px;
+} */
+
+
+
+/* header */
+header{
+    background-image: url(img/header-img.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 100%;
+    padding-top:150px;
+    position: relative;
+
+}
+
+.header-item{
+    text-align:center;
+
+}
+.header-logo, .header-catch{
+    color:#fff;
+    
+}
+.header-logo{
+   background-image: url(img/logo-white.png);
+   background-size: contain;
+  background-repeat: no-repeat;
+ margin:0 auto;
+   width: 150px;
+   height: 120px;
+}
+.header-catch{
+    margin-top:25px;
+    font-size: 20px;
+    
+}
+header .apple-button{
+    margin:25px auto 0;
+}
+
+.track{
+    font-size:14px;
+    color:white;
+    width: 100%;
+    margin:24px 0;
+    display: block;
+    position:absolute;
+    bottom:24px;
+}
+
+
+/* second */
+.second{
+    display: flex;
+}
+.purple,.blue,.yellow{
+    color:#fff;
+    padding: 60px 40px;
+    height: 77vh;
+    width:33.3%;
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: 50% 100%;
+}
+.purple{
+    background-image: url(img/purple-flower.jpg);
+    
+}
+.blue{
+    background-image: url(img/box-img.jpg);
+    
+}
+.yellow{
+    background-image: url(img/yellow-img.jpg);
+   
+}
+.second-small-text{
+    margin-top:10px;
+}
+
+/* third */
+.third{
+    display: flex;
+}
+.plan,.weeks{
+width: 50%;
+}
+.plan{
+    padding:80px 100px;
+    background-color: #ebebe6;
+}
+.plan .wrap{
+    max-width:400px;
+    margin:0 auto;
+}
+.plan h2{
+    font-weight: normal;
+}
+.plan h2,.plan .text{
+    text-align:center;
+}
+.content{
+    display:flex;
+    width:400px;
+    height:250px;
+    margin-top:20px;
+}
+.plan-background{
+    width:50%;
+    height: 100%;
+    border-radius:7px;
+    background-color: #fff;
+}
+.plan-a,.plan-b{
+    background-size:110px 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right:10px;
+    height: 100%;
+    width: 200px;
+}
+.plan-a{
+    background-image: url(img/plan-a.png);
+}
+.plan-b{
+   background-image: url(img/plan-b.png);
+    position: relative;
+}
+.b{
+    margin-left:20px;
+
+}
+.badge{
+    background-image: url(img/badge.png);
+    position:absolute;
+    right:-16px;
+    top:-16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height:65px;
+    width:65px;
+   
+}
+.badge p{
+    text-align: center;
+}
+.plan-attention{
+    margin-top:10px;
+
+}
+
+.weeks{
+    padding-top:200px;
+    text-align:center;
+}
+.weeks h2{
+    font-weight: normal;
+}
+.weeks-img{
+    background-image: url(img/2weeks.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:400px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+
+
+
+/* fourth */
+.fourth{
+    background: #EAD5DC;
+}
+.fourth .wrap{
+    display:flex;
+    padding: 0 54px;
+}
+.fourth-img ,.fourth-text{
+    width:50%;
+}
+.fourth-img{
+}
+.img-item{
+    width:100%;
+    height:730px;
+    background-image: url(img/flowers.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:  center;
+
+}
+.fourth-text{
+    max-width:400px;
+    margin:0 auto;
+    letter-spacing: 0.5px;
+}
+.fourth-text .items{
+    margin-top:60px;
+}
+
+.fourth-text h2,.fourth-text h3{
+    text-align: center;
+}
+.fourth-text h2{
+    margin-top:140px;
+}
+.fourth-text p{
+    font-size: 15px;
+    margin-top:10px;
+}
+.fourth .text-item{
+    margin-top:25px;
+}
+
+
+/* fifth */
+.fifth{
+    height: 100vh;
+    display: flex;
+    background-color: #E7E3DF;
+    position: relative;
+    color:#3F434A;
+}
+
+.fifth .title,.bgc-white{
+    text-align:center;
+}
+
+.fifth-text,.fifth-img{
+    width:50%;
+}
+
+.fifth-text{
+    padding:10vmin 0 0;
+}
+.text-inner{
+    width:400px;
+    margin:0 auto;
+}
+.space{
+    display: flex;
+}
+.bgc-white{
+    font-size:14px;
+    display: inline-block;
+    padding:5px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top:15px;
+}
+.fifth .long,.attention{
+    font-size:15px;
+}
+.long{
+    margin-top:35px;
+    letter-spacing: 0.4px;
+}
+.fifth .images{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.fifth .img{
+    width:100px;
+    height: 116px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.fifth .img p{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+}
+.bell{
+   background-image: url(img/bell.jpg);
+}
+.moon{
+    background-image: url(img/moon.jpg);
+}
+.candle{
+    background-image: url(img/candle.jpg);
+}
+
+.about{
+    display:flex;
+    margin-top:20px;
+}
+.attention{
+    padding:4px 10px;
+    border:2px black solid;
+}
+
+.price{
+    margin-left:15px;
+}
+.price .free{
+   font-size: 18px;
+}
+.price .normal{
+    font-size: 12px;
+}
+
+.app{
+    font-size: 13px;
+    margin-top:15px;
+}
+
+
+
+
+.fifth-img{
+    /* width:100%; */
+    position: absolute;
+    /* bottom:0; */
+    right:0;
+    height: 100%;
+    background-image: url(img/vessel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:  right; */
+
+}
+
+
+
+/* sixth */
+.sixth{
+    padding:100px 140px;
+    color:#3F434A;
+}
+.sixth h2{
+    text-align:center;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.sixth .icon{
+    margin-top:60px;
+    text-align:center;
+}
+.icon span{
+    font-size:55px;
+}
+.icon h3,.icon p{
+    margin-top:15px;
+} 
+
+.icon h3{
+    font-size: 23px;
+}
+.icon p{
+    font-size: 15px;
+}
+.icons .left{
+    margin-left:210px;
+}
+
+
+/* seventh */
+.seventh{
+    height:422px;
+    padding:0 40px;
+    background-color: #EFDFC5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.seventh-img{
+    order:1;
+    background-image: url(img/seventh-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center bottom;
+    height:422px;
+    width:80%;
+}
+.seventh .logo-item{
+    order:2;
+    margin-left:-250px;
+    margin-top:60px;
+}
+.seventh-logo{
+    background-image: url(img/logo.png);
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+.seventh-catch{
+    margin-top:20px;
+}
+.seventh .apple-button{
+    margin:0 auto;
+    margin-top:20px;
+}
+
+
+
+/* footer */
+footer{
+    position: relative;
+    color:white;
+    background-color: #3F434A;
+}
+.footer-items{
+    padding:63px 63px 95px;
+}
+.footer-nav ul{
+    max-width:1000px;
+    margin-bottom:48px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav ul li{
+    font-size: 14px;
+    margin-left:120px;
+}
+.footer-nav ul li:first-child{
+    margin-left:0;
+}
+footer .icon{
+  font-size: 50px; 
+  position: absolute;
+  top:30px;
+  right:20px;
+
+}
+.footer-copyright{
+    color:rgba(255,255,255,0.7);
+    font-size: 13px;
+   position: absolute;
+   bottom:10px;
+   width:100%;
+    text-align:center;
+}
+
+
